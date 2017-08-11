@@ -1,8 +1,9 @@
 GIT
   remote: https://github.com/everypolitician/twitter_list.git
-  revision: 58af21b2861e4a5f554a1033566911b5200b57f6
+  revision: 472251743f6ee40549596e94a2c64dbaa8a4a2a0
   specs:
-    twitter_list (0.0.0)
+    twitter_list (0.0.2)
+      twitter
 
 GIT
   remote: https://github.com/openaustralia/scraperwiki-ruby.git
@@ -22,7 +23,7 @@ GEM
     coderay (1.1.1)
     domain_name (0.5.20170404)
       unf (>= 0.0.5, < 1.0.0)
-    dotenv (2.1.1)
+    dotenv (2.2.1)
     equalizer (0.0.11)
     faraday (0.11.0)
       multipart-post (>= 1.2, < 3)
@@ -35,20 +36,20 @@ GEM
       domain_name (~> 0.5)
     http-form_data (1.0.3)
     http_parser.rb (0.6.0)
-    httpclient (2.8.0)
+    httpclient (2.8.3)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
     method_source (0.8.2)
     multipart-post (2.0.0)
     naught (1.1.0)
-    pry (0.10.3)
+    pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
     public_suffix (2.0.5)
     simple_oauth (0.3.1)
     slop (3.6.0)
-    sqlite3 (1.3.11)
+    sqlite3 (1.3.13)
     sqlite_magic (0.0.6)
       sqlite3
     thread_safe (0.3.6)
